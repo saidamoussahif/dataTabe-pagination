@@ -15,12 +15,7 @@
             <Column field="address" header="Address"></Column>
             <Column field="balance" header="balance"></Column>
             <Column field="created" header="Created"></Column>
-      <template #paginatorstart>
-        <Button type="button" icon="pi pi-refresh" class="p-button-text" />
-      </template>
-      <template #paginatorend>
-        <Button type="button" icon="pi pi-cloud" class="p-button-text" />
-      </template>
+   
     </DataTable>
   </div>
 </template>
